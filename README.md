@@ -14,4 +14,7 @@ For Windows machines:
 For Mac/Linux machines:  
 &nbsp;&nbsp;&nbsp;5. Open a terminal in project  
 &nbsp;&nbsp;&nbsp;6. Type in `./setup.sh` and hit enter  
-&nbsp;&nbsp;&nbsp;7. Type in `./get_playlists.sh` and hit enter  
+&nbsp;&nbsp;&nbsp;7. Type in `./get_playlists.sh` and hit enter
+
+
+You can optionally delete the `--skip-download` flag in `get_playlists.sh/ps1` to download all playlists' music as audio files, and further can delete the `-x` flag to obtain the full videos.
