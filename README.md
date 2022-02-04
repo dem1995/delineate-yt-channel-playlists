@@ -7,11 +7,11 @@ Instructions:
 4. (optional) uncomment --cookies-from-browser in run_program.ps1 to access private/unlisted playlists. Change the browser name on that line to whatever you use (or just log in to Chrome)  
 
 For Windows machines:  
-\ \ \ 5. On Windows, shift-click the directory and click "open powershell window here"  
-   6. In powershell, type in ".\setup.ps1" and hit enter  
-   7. In powershell, type in ".\get_playlists.ps1"  
+&nbsp;&nbsp;&nbsp;5. On Windows, shift-click the directory and click "open powershell window here"  
+&nbsp;&nbsp;&nbsp;6. In powershell, type in ".\setup.ps1" and hit enter  
+&nbsp;&nbsp;&nbsp;7. In powershell, type in ".\get_playlists.ps1"  
 
 For Mac/Linux machines:  
-   5. Open a terminal in project  
-   6. Type in "./setup.sh" and hit enter  
-   7. Type in "./get_playlists.sh" and hit enter  
+&nbsp;&nbsp;&nbsp;5. Open a terminal in project  
+&nbsp;&nbsp;&nbsp;6. Type in "./setup.sh" and hit enter  
+&nbsp;&nbsp;&nbsp;7. Type in "./get_playlists.sh" and hit enter  
