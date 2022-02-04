@@ -9,7 +9,7 @@ Instructions:
 For Windows machines:  
 &nbsp;&nbsp;&nbsp;5. On Windows, shift-click the directory and click "open PowerShell window here"  
 &nbsp;&nbsp;&nbsp;6. In PowerShell, type in `.\setup.ps1` and hit enter  
-&nbsp;&nbsp;&nbsp;7. In PowerShell, type in `.\get_playlists.ps1`  
+&nbsp;&nbsp;&nbsp;7. In PowerShell, type in `.\get_playlists.ps1` and hit enter
 
 For Mac/Linux machines:  
 &nbsp;&nbsp;&nbsp;5. Open a terminal in project  
