@@ -18,7 +18,7 @@ def slugify(value, allow_unicode=False):
 	value = re.sub(r'[^\w\s-]', '', value.lower())
 	return re.sub(r'[-\s]+', '-', value).strip('-_')
 
-def process_playlist(playlist_url)
+def process_playlist(playlist_url):
 	print(f"Processing playlist at {playlist_url}")
 	# It being a playlist file, create a csv to write the playlist entries to
 	#table_name = file.rsplit(".info.json",maxsplit=1)[0]
