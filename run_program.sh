@@ -1,3 +1,4 @@
+#!/bin/bash
 while IFS= read -r channel_url; do
     echo "Processing $channel_url"  
     folder_name=$(python get_channel_name_and_make_dir.py $channel_url)
