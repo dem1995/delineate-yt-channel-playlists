@@ -10,7 +10,7 @@ foreach($channel_url in Get-Content .\channel_urls.txt) {
 --write-info-json `
 --write-playlist-metafiles `
 --download-archive gilvasunner_downloaded_vids.txt `
---skip-download ` *> errors_and_tracking.txt
+--skip-download ` *> errors_and_tracking.txt `
 #--cookies-from-browser chrome 
 #--match-filter "playlist_title!='Liked videos'" > out.txt
 #--cookies-from-browser chrome `
