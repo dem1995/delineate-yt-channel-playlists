@@ -7,7 +7,7 @@ Instructions:
 4. (optional) uncomment --cookies-from-browser in run_program.ps1 to access private/unlisted playlists. Change the browser name on that line to whatever you use (or just log in to Chrome)  
 
 For Windows machines:  
-   5. On Windows, shift-click the directory and click "open powershell window here"  
+\ \ \ 5. On Windows, shift-click the directory and click "open powershell window here"  
    6. In powershell, type in ".\setup.ps1" and hit enter  
    7. In powershell, type in ".\get_playlists.ps1"  
 
