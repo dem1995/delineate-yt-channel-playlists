@@ -1,6 +1,9 @@
 from pytube import Playlist
 
 import argparse
+import csv
+import unicodedata
+import re
 
 def slugify(value, allow_unicode=False):
 	"""
@@ -26,7 +29,7 @@ def process_playlist(playlist_url):
 	playlist = Playlist(playlist_url)
 	playlist_contents_dir = slugify(playlist.title)
 
-	with open(playlist_contents_dir, 'w+', newline='', encoding="utf-8") as playlist_content:
+	with open(playlist_contents_dir, 'w+', newline='', encoding="utf-8") as playlist_contents:
 		csvwriter = csv.writer(playlist_contents)
 		csvwriter.writerow(["track_index", "video_title", "video_url"])
 		for index, (video, video_url) in enumerate(zip(playlist.videos, playlist.video_urls)):
