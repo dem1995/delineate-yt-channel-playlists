@@ -1,4 +1,4 @@
-Do the following to list out the contents of your YT channel:
+Do the following to generate playlist spreadsheets for your channel (as well as back up the video descriptions)
 
 Instructions:
 1. Download this directory and extract it
