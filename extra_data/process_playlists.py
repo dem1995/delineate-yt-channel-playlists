@@ -26,19 +26,20 @@ def process_playlist(playlist_url):
 	playlist = Playlist(playlist_url)
 	playlist_contents_dir = slugify(playlist.title)
 
-	with open(playlist_contents_dir, 'w+', newline='', encoding="utf-8") as playlist_content>                            csvwriter = csv.writer(playlist_contents)
+	with open(playlist_contents_dir, 'w+', newline='', encoding="utf-8") as playlist_content:
+		csvwriter = csv.writer(playlist_contents)
 		csvwriter.writerow(["track_index", "video_title", "video_url"])
-		for index, (video, video_url) in enumerate(zip(playlist.videos, playlist.video_urls)>                                csvwriter.writerow(
-		[
-			index+1,
-			video.title,
-			video_url
-		]
-	)
+		for index, (video, video_url) in enumerate(zip(playlist.videos, playlist.video_urls)):
+			csvwriter.writerow(
+			[
+				index+1,
+				video.title,
+				video_url
+			])
 	print(video.title)
 
 
-if __name__ == "__main__"
+if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--playlist_list", default=None)
 	parser.add_argument("--playlist_url", default=None)
