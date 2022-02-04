@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "running"
 while IFS= read -r channel_url; do
     echo "Processing $channel_url"  
     folder_name=$(python get_channel_name_and_make_dir.py $channel_url)
@@ -12,7 +13,7 @@ while IFS= read -r channel_url; do
 --write-info-json \
 --write-playlist-metafiles \
 --download-archive gilvasunner_downloaded_vids.txt \
---skip-download > errors_and_tracking.txt \
+--skip-download 2>&1 errors_and_tracking.txt \
 #--cookies-from-browser chrome
 
 done < channel_urls.txt
