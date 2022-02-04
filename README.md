@@ -8,10 +8,10 @@ Instructions:
 
 For Windows machines:  
 &nbsp;&nbsp;&nbsp;5. On Windows, shift-click the directory and click "open powershell window here"  
-&nbsp;&nbsp;&nbsp;6. In powershell, type in ".\setup.ps1" and hit enter  
-&nbsp;&nbsp;&nbsp;7. In powershell, type in ".\get_playlists.ps1"  
+&nbsp;&nbsp;&nbsp;6. In powershell, type in `.\setup.ps1` and hit enter  
+&nbsp;&nbsp;&nbsp;7. In powershell, type in `.\get_playlists.ps1`  
 
 For Mac/Linux machines:  
 &nbsp;&nbsp;&nbsp;5. Open a terminal in project  
-&nbsp;&nbsp;&nbsp;6. Type in "./setup.sh" and hit enter  
-&nbsp;&nbsp;&nbsp;7. Type in "./get_playlists.sh" and hit enter  
+&nbsp;&nbsp;&nbsp;6. Type in `./setup.sh` and hit enter  
+&nbsp;&nbsp;&nbsp;7. Type in `./get_playlists.sh` and hit enter  
