@@ -18,3 +18,13 @@ For Mac/Linux machines:
 
 
 You can optionally delete the `--skip-download` flag in `get_playlists.sh/ps1` to download all playlists' music as audio files, and further can delete the `-x` flag to obtain the full videos.
+
+
+If you want to process individual playlists (rather than a full channel), you can use the script in extra-data as:
+
+usage: process_playlists.py [-h] [--playlist_list PLAYLIST_LIST] [--playlist_url PLAYLIST_URL]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --playlist_list PLAYLIST_LIST # file where each line is a playlist url
+  --playlist_url PLAYLIST_URL # url to an individual playlist
